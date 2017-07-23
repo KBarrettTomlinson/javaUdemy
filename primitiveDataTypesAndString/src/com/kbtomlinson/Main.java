@@ -17,6 +17,7 @@ public class Main {
         // 9 Data Type but is not actually Primitive
         // STRING
         // A string is a sequence of characters
+        // Strings are a class.
         String myString = "This is a string";
         System.out.println("myString is equal to: " + myString);
         System.out.println(("concatonate is similar to javascript " + myString));
