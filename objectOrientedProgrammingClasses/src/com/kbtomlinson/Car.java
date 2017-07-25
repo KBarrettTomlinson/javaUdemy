@@ -23,5 +23,21 @@ public class Car {
 
 
     // creating a method for Car class
-    
+
+    // This is a setter!
+    public void setModel(String model) {
+        String validModel = model.toLowerCase();
+        if (validModel.equals("carrera") || validModel.equals("commodore")) {
+            this.model = model;
+        } else {
+            this.model = "unknown";
+        }
+    }
+
+    // This is a getter!
+    public String getModel() {
+        return this.model;
+    }
+
+
 }

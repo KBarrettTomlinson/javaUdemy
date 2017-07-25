@@ -20,7 +20,20 @@ public class Main {
         Car holden = new Car();
 
         // All defined classes inherit certain methods from the java class
+        // Null is the internal default state for a class and a string
 
+        System.out.println("The model of this object is: " + porsche.getModel());
+
+        porsche.setModel("Carrera");
+
+        holden.setModel("Caulfield");
+
+        System.out.println("The model of this object is: " + porsche.getModel());
+        System.out.println("The model of this object is: " + holden.getModel());
+
+        // We use getters and setters because this allow us to add data validation within the classes
+
+        
 
     }
 }
