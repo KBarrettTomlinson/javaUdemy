@@ -33,5 +33,20 @@ public class Main {
         tomlinsonChecking.getFirstAndLastName();
 
 
+        // Create a new class VipCustomer
+        // it should have 3 fields name, credit limit, and email address.
+        // create 3 constructors
+        // 1st constructor empty should call the constructor with 3 parameters wtih default values
+        // 2nd constructor should pass on the 2 values it recieves and add a default value for the 3rd
+        // 3rd constructor should save all fields.
+        // create getters only for this using code generation of intellij as setters wont be needed
+        // test and confirm it works
+
+        VipCustomer keithVip = new VipCustomer();
+        VipCustomer connarVip = new VipCustomer("Connar", "connar@gmail.com");
+        VipCustomer seanVip = new VipCustomer("Sean", 45_000, "me@seanlconley.com");
+
+        System.out.println(keithVip.getName() + connarVip.getCreditLimit() + seanVip.getCreditLimit());
+
     }
 }
