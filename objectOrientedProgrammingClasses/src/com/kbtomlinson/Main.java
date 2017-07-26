@@ -33,7 +33,7 @@ public class Main {
 
         // We use getters and setters because this allow us to add data validation within the classes
 
-        
+
 
     }
 }
