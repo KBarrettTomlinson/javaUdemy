@@ -18,6 +18,15 @@ public class Animal {
         this.name = name;
     }
 
+    // methods
+    public void eat() {
+        System.out.println("eating");
+    }
+
+    public void move() {
+        System.out.println("moving");
+    }
+
     //getters
     public int getBrain() {
         return brain;
