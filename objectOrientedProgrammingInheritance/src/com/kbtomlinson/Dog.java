@@ -23,7 +23,6 @@ public class Dog extends Animal {
     }
 
     // overriding methods
-
     @Override
     public void eat() {
         System.out.println("Dog eat is called");
@@ -31,8 +30,16 @@ public class Dog extends Animal {
         super.eat();
     }
 
+
+    // methods
     private void chew(){
         System.out.println("dog is chewing");
+    }
+
+    public void walk() {
+        System.out.println("dog.walk called");
+        int speed  = 5;
+        move(speed);
     }
 
 }

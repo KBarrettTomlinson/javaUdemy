@@ -9,7 +9,11 @@ public class Main {
         Dog dog = new Dog(8, 20, "yorkie", 2, 4, 1, 20, "long and silky");
 
         dog.eat();
-        dog.move();
+        dog.move(4);
+        dog.walk();
+
+        Fish fish = new Fish(2, 34,"Blue Gill",2,2,2);
+        fish.swim();
 
 
     }
