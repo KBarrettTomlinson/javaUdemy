@@ -34,6 +34,7 @@ public class Printer {
 
         if (duplexOn){
             pagesToPrint = (pages / 2) + (pages % 2);
+
         } else {
             pagesToPrint = pages;
         }

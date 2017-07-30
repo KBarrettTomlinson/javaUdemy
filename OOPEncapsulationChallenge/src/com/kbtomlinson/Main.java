@@ -20,6 +20,8 @@ public class Main {
 
         TonerCartridge theTonerCartridge = new TonerCartridge(100);
         Printer thePrinter = new Printer(true, theTonerCartridge);
+        thePrinter.isDuplexOn();
+        thePrinter.setDuplexOn(true);
         thePrinter.checkTonerLevel();
         thePrinter.printJob(45);
         thePrinter.checkTonerLevel();
