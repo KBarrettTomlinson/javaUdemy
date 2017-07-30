@@ -43,7 +43,7 @@ public class Car extends Vehicle {
             // Decrease Speed
                 public  void decreaseSpeed(double incriment){
                     System.out.println("Your car speed has been decreased by: " + incriment);
-                    currentSpeed += incriment;
+                    currentSpeed -= incriment;
                     move();
                 }
 

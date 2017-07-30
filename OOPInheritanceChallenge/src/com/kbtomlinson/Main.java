@@ -20,5 +20,7 @@ public class Main {
 
         mariner.turnEngineOn();
         mariner.increaseSpeed(45);
+        mariner.decreaseSpeed(12);
+
     }
 }
