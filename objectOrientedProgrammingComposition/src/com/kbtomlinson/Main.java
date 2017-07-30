@@ -17,12 +17,41 @@ public class Main {
 
         PC thePC = new PC(theCase, theMonitor, theMotherboard);
 
-        thePC.getMonitor().drawPixelAt(1500,1200, "red");
-        thePC.getMotherboard().loadProgram("Windows 1.0");
-        thePC.getTheCase().pressPowerButton();
+//        thePC.getMonitor().drawPixelAt(1500,1200, "red");
+//        thePC.getMotherboard().loadProgram("Windows 1.0");
+//        thePC.getTheCase().pressPowerButton();
 
+        thePC.powerUp();
 
+    // COMPOSITION Challenge
 
+        // Create a single room of a house using composition
+        // This about the things that should be included in the room.
+        // Maybe physical parts of the house but furniture as well
+        // Add at least one method to access an object via a getter
+        // and then that object's public method as you saw in the previous video
+        // then add at least one method to hide the object e.g. not using a getter
+        // but to access the object used in composition within the main class
+        // like you saw in this video
+
+        // PLANNING
+
+        // Bathroom HAS
+        // Sink
+        // Shower
+        // Toilet
+        // Towel Rack
+        // Closet
+
+        // Bathroom CAN
+        // Clean bathroom
+
+        Sink aSink = new Sink(false, "bob");
+        Shower aShower = new Shower(false, "tim");
+
+        Bathroom theBathrooom = new Bathroom(aSink, aShower);
+        theBathrooom.cleanBathroom();
+        theBathrooom.getTheSink().turnOn();
 
     }
 }
