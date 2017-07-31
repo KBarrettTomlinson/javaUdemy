@@ -122,11 +122,13 @@ public class MobilePhone {
 
     // updateExistingContact
     private void updateExistingContact(){
+        // finds contact then updates contact
 
     }
 
     // removeContact
     private void removeContact(){
+        // finds contact then removes contact
 
     }
 }
