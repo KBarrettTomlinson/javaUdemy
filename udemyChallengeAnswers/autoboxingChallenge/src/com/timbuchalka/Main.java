@@ -25,12 +25,15 @@ public class Main {
         // e.g. check if exists, or does not exist, etc.
         // Think about where you are adding the code to perform certain actions
 
+
+        //Create a Bank
         Bank bank = new Bank("National Australia Bank");
 
-        if(bank.addBranch("Adelaide")) {
+        if(bank.addBranch("Adelaide")) { // <--- runs the method and then uses the return value in order to give user feedback
             System.out.println("Adelaide branch created");
         }
 
+        //adding customers
         bank.addCustomer("Adelaide", "Tim", 50.05);
         bank.addCustomer("Adelaide", "Mike", 175.34);
         bank.addCustomer("Adelaide", "Percy", 220.12);
@@ -38,6 +41,7 @@ public class Main {
         bank.addBranch("Sydney");
         bank.addCustomer("Sydney", "Bob", 150.54);
 
+        //adding transactions
         bank.addCustomerTransaction("Adelaide", "Tim", 44.22);
         bank.addCustomerTransaction("Adelaide", "Tim", 12.44);
         bank.addCustomerTransaction("Adelaide", "Mike", 1.65);
@@ -47,6 +51,8 @@ public class Main {
 
         bank.addBranch("Melbourne");
 
+
+        //Why write the error code here instead of giving error feedback in the class itself?
         if(!bank.addCustomer("Melbourne", "Brian", 5.53)) {
             System.out.println("Error Melbourne branch does not exist");
         }
