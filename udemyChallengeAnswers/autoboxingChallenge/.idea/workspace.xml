@@ -41,26 +41,27 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Branch.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Branch.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/timbuchalka/Branch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="20" column="47" lean-forward="false" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
+            <state relative-caret-position="452">
+              <caret line="43" column="74" lean-forward="false" selection-start-line="43" selection-start-column="74" selection-end-line="43" selection-end-column="74" />
               <folding>
+                <element signature="e#406#407#0" expanded="true" />
                 <element signature="e#438#439#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Customer.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Customer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/timbuchalka/Customer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="38" lean-forward="true" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+            <state relative-caret-position="240">
+              <caret line="16" column="81" lean-forward="false" selection-start-line="16" selection-start-column="81" selection-end-line="16" selection-end-column="81" />
               <folding>
-                <element signature="e#415#416#0" expanded="true" />
-                <element signature="e#460#461#0" expanded="true" />
+                <element signature="e#490#491#0" expanded="true" />
+                <element signature="e#535#536#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -83,10 +84,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/timbuchalka/Customer.java" />
-        <option value="$PROJECT_DIR$/src/com/timbuchalka/Branch.java" />
         <option value="$PROJECT_DIR$/src/com/timbuchalka/Bank.java" />
         <option value="$PROJECT_DIR$/src/com/timbuchalka/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/timbuchalka/Customer.java" />
+        <option value="$PROJECT_DIR$/src/com/timbuchalka/Branch.java" />
       </list>
     </option>
   </component>
@@ -474,6 +475,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="944b1ff1-d26d-4a10-ab50-067c43c9fbe4" name="Default" comment="" />
@@ -484,12 +488,12 @@
       <workItem from="1441330493672" duration="1613000" />
       <workItem from="1441332162609" duration="1419000" />
       <workItem from="1441334899870" duration="717000" />
-      <workItem from="1501623709669" duration="489000" />
+      <workItem from="1501623709669" duration="1664000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4238000" />
+    <option name="totallyTimeSpent" value="5413000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="773" extended-state="6" />
@@ -587,6 +591,7 @@
         <state relative-caret-position="0">
           <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
           <folding>
+            <element signature="e#406#407#0" expanded="true" />
             <element signature="e#438#439#0" expanded="true" />
           </folding>
         </state>
@@ -608,23 +613,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/timbuchalka/Branch.java">
+    <entry file="file://$PROJECT_DIR$/src/com/timbuchalka/Customer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="20" column="47" lean-forward="false" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
+        <state relative-caret-position="240">
+          <caret line="16" column="81" lean-forward="false" selection-start-line="16" selection-start-column="81" selection-end-line="16" selection-end-column="81" />
           <folding>
-            <element signature="e#438#439#0" expanded="true" />
+            <element signature="e#490#491#0" expanded="true" />
+            <element signature="e#535#536#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/timbuchalka/Customer.java">
+    <entry file="file://$PROJECT_DIR$/src/com/timbuchalka/Branch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="38" lean-forward="true" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+        <state relative-caret-position="452">
+          <caret line="43" column="74" lean-forward="false" selection-start-line="43" selection-start-column="74" selection-end-line="43" selection-end-column="74" />
           <folding>
-            <element signature="e#415#416#0" expanded="true" />
-            <element signature="e#460#461#0" expanded="true" />
+            <element signature="e#406#407#0" expanded="true" />
+            <element signature="e#438#439#0" expanded="true" />
           </folding>
         </state>
       </provider>
