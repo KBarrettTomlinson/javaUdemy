@@ -33,6 +33,7 @@ public class Main {
 
         Branch newBranch = new Branch("South Minneapolis");
         newBranch.addCustomerToBranch("Keith", 500);
+        newBranch.addCustomerToBranch("Lisa", 10000);
         newBranch.listCustomers();
         newBranch.addTransactionToCustomer("Keith", -23);
         newBranch.listTransactionsForCustomer("Keith");
