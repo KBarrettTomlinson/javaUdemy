@@ -31,21 +31,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Bank.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Bank.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/timbuchalka/Bank.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="40" column="21" lean-forward="false" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
+            <state relative-caret-position="422">
+              <caret line="79" column="8" lean-forward="true" selection-start-line="79" selection-start-column="8" selection-end-line="79" selection-end-column="8" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Branch.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Branch.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/timbuchalka/Branch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="452">
-              <caret line="43" column="74" lean-forward="false" selection-start-line="43" selection-start-column="74" selection-end-line="43" selection-end-column="74" />
+            <state relative-caret-position="540">
+              <caret line="38" column="9" lean-forward="true" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
               <folding>
                 <element signature="e#406#407#0" expanded="true" />
                 <element signature="e#438#439#0" expanded="true" />
@@ -84,10 +84,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/timbuchalka/Bank.java" />
         <option value="$PROJECT_DIR$/src/com/timbuchalka/Main.java" />
         <option value="$PROJECT_DIR$/src/com/timbuchalka/Customer.java" />
         <option value="$PROJECT_DIR$/src/com/timbuchalka/Branch.java" />
+        <option value="$PROJECT_DIR$/src/com/timbuchalka/Bank.java" />
       </list>
     </option>
   </component>
@@ -488,12 +488,12 @@
       <workItem from="1441330493672" duration="1613000" />
       <workItem from="1441332162609" duration="1419000" />
       <workItem from="1441334899870" duration="717000" />
-      <workItem from="1501623709669" duration="1664000" />
+      <workItem from="1501623709669" duration="2714000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5413000" />
+    <option name="totallyTimeSpent" value="6463000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="773" extended-state="6" />
@@ -605,14 +605,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/timbuchalka/Bank.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="40" column="21" lean-forward="false" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/timbuchalka/Customer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -626,12 +618,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/timbuchalka/Branch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
-          <caret line="43" column="74" lean-forward="false" selection-start-line="43" selection-start-column="74" selection-end-line="43" selection-end-column="74" />
+        <state relative-caret-position="540">
+          <caret line="38" column="9" lean-forward="true" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
           <folding>
             <element signature="e#406#407#0" expanded="true" />
             <element signature="e#438#439#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/timbuchalka/Bank.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="79" column="8" lean-forward="true" selection-start-line="79" selection-start-column="8" selection-end-line="79" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>

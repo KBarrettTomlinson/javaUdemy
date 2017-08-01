@@ -11,24 +11,28 @@ public class Bank {
 
     public Bank(String name) {
         this.name = name;
-        this.branches = new ArrayList<Branch>();
+        this.branches = new ArrayList<Branch>(); // <- constructor of ArrayList
     }
 
+    // adding branches
     public boolean addBranch(String branchName) {
+        // verification for branches before adding one
         if(findBranch(branchName) == null) {
             this.branches.add(new Branch(branchName));
             return true;
         }
-
         return false;
     }
 
     public boolean addCustomer(String branchName, String customerName, double initialAmount) {
+        // adding customer to a specific branch with an initial amount
+        //check if it exists
+        // this is a temporary branch that is holding the results of our method
         Branch branch = findBranch(branchName);
         if(branch != null) {
-            return branch.newCustomer(customerName, initialAmount);
+            return branch.newCustomer(customerName, initialAmount); // <-- executes the method and then returns the response from the method
         }
-
+        // validating only a specific thing in a specific area
         return false;
     }
 
@@ -37,7 +41,6 @@ public class Bank {
         if(branch != null) {
             return branch.addCustomerTransaction(customerName, amount);
         }
-
         return false;
     }
 
@@ -58,6 +61,7 @@ public class Bank {
            System.out.println("Customer details for branch " + branch.getName());
 
            ArrayList<Customer> branchCustomers = branch.getCustomers();
+           // why not have list customers  and list transactions methods inside the classes??
            for(int i=0; i<branchCustomers.size(); i++) {
                Customer branchCustomer = branchCustomers.get(i);
                System.out.println("Customer: " + branchCustomer.getName() + "[" + (i+1) + "]");
@@ -71,6 +75,7 @@ public class Bank {
            }
            return true;
        } else {
+           // if error
            return false;
        }
    }
