@@ -23,6 +23,8 @@ public class Main {
         // As an optional extra, provide an option to remove the current song from the playlist
         // (hint: listiterator.remove()
 
+
+        //rock!
         Album album = new Album("Stormbringer", "Deep Purple");
         album.addSong("Stormbringer", 4.6);
         album.addSong("Love don't mean a thing", 4.22);
