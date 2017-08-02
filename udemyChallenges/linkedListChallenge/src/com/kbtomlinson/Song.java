@@ -17,6 +17,14 @@ public class Song {
         return durationInSeconds;
     }
 
+    //override toString or write original method to print out both
+
+    public void printSong(){
+        System.out.println("Song Title: " + this.getTitle());
+        System.out.println("Song Time:  " + this.getDurationInSeconds() + " seconds");
+
+    }
+
 
 
 

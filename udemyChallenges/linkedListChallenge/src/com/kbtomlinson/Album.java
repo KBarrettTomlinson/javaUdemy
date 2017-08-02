@@ -1,6 +1,5 @@
 package com.kbtomlinson;
 
-import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.ListIterator;
 
@@ -31,8 +30,7 @@ public class Album {
         System.out.println("Song list for " + this.title);
         System.out.println("---------- -- ----------");
         while(i.hasNext()){
-            System.out.println("Song Title: " + i.next().getTitle());
-            System.out.println("Song Time:  " + i.previous().getDurationInSeconds() + " seconds");
+            i.next().printSong();
             i.next();
             if(i.hasNext()){
                 System.out.println("-----");

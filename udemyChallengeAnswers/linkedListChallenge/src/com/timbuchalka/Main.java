@@ -144,6 +144,7 @@ public class Main {
                 case 6:
                     if(playList.size() >0) {
                         listIterator.remove();
+                        // after a remove you need to move the cursor to a new existing place so that you don't get trapped in limbo
                         if(listIterator.hasNext()) {
                             System.out.println("Now playing " + listIterator.next());
                         } else if(listIterator.hasPrevious()) {
