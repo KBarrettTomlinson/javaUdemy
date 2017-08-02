@@ -23,6 +23,7 @@ public class Demo {
 
         addInOrder(placesToVisit, "Alice Springs");
         addInOrder(placesToVisit, "Darwin");
+        addInOrder(placesToVisit, "Houston");
         printList(placesToVisit);
         visit(placesToVisit);
 
@@ -56,7 +57,7 @@ public class Demo {
     //method that inserts new entry in alphabetical order
     private static boolean addInOrder(LinkedList<String> linkedList, String newCity) {
         // List Iterator is a  java utility
-        ListIterator<String> stringListIterator = linkedList.listIterator();
+        ListIterator<String> stringListIterator = linkedList.listIterator(); // just creating a list iterator .next must be used to move to the first entry.
 
         while(stringListIterator.hasNext()) { // <-- going through all of the records is a method in the List Iterator class
             int comparison = stringListIterator.next().compareTo(newCity); // <-- compare to is a method returns 0 if it exists
@@ -86,7 +87,7 @@ public class Demo {
         boolean goingForward = true;
         ListIterator<String> listIterator = cities.listIterator();
 
-        if(cities.isEmpty()) {
+        if(cities.isEmpty()) { // <-- checking if the linkedList is Empty
             System.out.println("No cities in the itenerary");
             return;
         } else {
@@ -104,6 +105,7 @@ public class Demo {
                     break;
 
                 case 1:
+                    // if you previously were going backwards, then you have to change direction and move before going again
                     if(!goingForward) {
                         if(listIterator.hasNext()) {
                             listIterator.next();
@@ -119,6 +121,7 @@ public class Demo {
                     break;
 
                 case 2:
+                    // if you previous were going forward, then you have to change direction and move before going again
                     if(goingForward) {
                         if(listIterator.hasPrevious()) {
                             listIterator.previous();
