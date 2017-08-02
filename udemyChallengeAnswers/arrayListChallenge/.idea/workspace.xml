@@ -24,8 +24,31 @@
       <file leaf-file-name="MobilePhone.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/timbuchalka/MobilePhone.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
+            <state relative-caret-position="646">
               <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="62" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Contact.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/timbuchalka/Contact.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="23" column="46" lean-forward="false" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
+              <folding>
+                <element signature="e#476#477#0" expanded="true" />
+                <element signature="e#529#530#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/timbuchalka/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="16" column="22" lean-forward="false" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -60,9 +83,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1484" />
+    <option name="y" value="-188" />
     <option name="width" value="1280" />
-    <option name="height" value="800" />
+    <option name="height" value="773" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -79,24 +104,21 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="Arrays,-Java-inbuilt-Lists,-Autoboxing-and-Unboxing-ArrayList-Challenge-Part-3-Source-code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Arrays,-Java-inbuilt-Lists,-Autoboxing-and-Unboxing-ArrayList-Challenge-Part-3-Source-code" type="462c0819:PsiDirectoryNode" />
+              <item name="arrayListChallenge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="arrayListChallenge" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Arrays,-Java-inbuilt-Lists,-Autoboxing-and-Unboxing-ArrayList-Challenge-Part-3-Source-code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Arrays,-Java-inbuilt-Lists,-Autoboxing-and-Unboxing-ArrayList-Challenge-Part-3-Source-code" type="462c0819:PsiDirectoryNode" />
+              <item name="arrayListChallenge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="arrayListChallenge" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Arrays,-Java-inbuilt-Lists,-Autoboxing-and-Unboxing-ArrayList-Challenge-Part-3-Source-code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Arrays,-Java-inbuilt-Lists,-Autoboxing-and-Unboxing-ArrayList-Challenge-Part-3-Source-code" type="462c0819:PsiDirectoryNode" />
+              <item name="arrayListChallenge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="arrayListChallenge" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="timbuchalka" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -104,7 +126,10 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -445,14 +470,15 @@
       <workItem from="1440721723414" duration="5281000" />
       <workItem from="1501621462731" duration="71000" />
       <workItem from="1501623568624" duration="13000" />
+      <workItem from="1501708216070" duration="61000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5365000" />
+    <option name="totallyTimeSpent" value="5426000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <frame x="1484" y="-188" width="1280" height="773" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -550,16 +576,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/timbuchalka/Contact.java">
+    <entry file="file://$PROJECT_DIR$/src/com/timbuchalka/MobilePhone.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/timbuchalka/Contact.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
           <caret line="23" column="46" lean-forward="false" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
+          <folding>
+            <element signature="e#476#477#0" expanded="true" />
+            <element signature="e#529#530#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/timbuchalka/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="15">
           <caret line="16" column="22" lean-forward="false" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
           <folding />
         </state>
@@ -567,7 +605,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/timbuchalka/MobilePhone.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
+        <state relative-caret-position="646">
           <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="62" selection-end-column="5" />
           <folding />
         </state>
