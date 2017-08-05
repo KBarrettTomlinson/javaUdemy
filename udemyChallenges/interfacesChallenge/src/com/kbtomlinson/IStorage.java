@@ -1,6 +1,6 @@
 package com.kbtomlinson;
 
-import java.util.ArrayList;
+import java.util.List;
 
 public interface IStorage {
     // Create a simple interface that allows an object to be saved to some sort of storage medium.
@@ -15,6 +15,6 @@ public interface IStorage {
     // one to return an ArrayList of values
     // populate the object's field from an ArrayList
 
-    ArrayList<String> write();
-    void read(ArrayList<String> savedValues);
+    List<String> write();
+    void read(List<String> savedValues);
 }
