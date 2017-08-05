@@ -1,6 +1,7 @@
 package com.kbtomlinson;
 
 import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 public class Main {
@@ -29,6 +30,18 @@ public class Main {
         // Again, we are not going to use Java file I/O; instead use the readValues() method below to
         // simulate getting values from a file – this allows you to type as many values as your class
         // requires, and returns an ArrayList.
+        Player keith = new Player("Keith", 100, 233);
+        System.out.println(keith.toString());
+        saveObject(keith);
+
+        keith.setHitPoints(8);
+        System.out.println(keith);
+        keith.setWeapon("Storm Ruler");
+        saveObject(keith);
+        loadObject(keith);
+        System.out.println(keith);
+
+
 
 
     }
@@ -40,7 +53,7 @@ public class Main {
         boolean quit = false;
         int index = 0;
         System.out.println("Choose\n" +
-            "1 to enter a string\\n" +
+            "1 to enter a string\n" +
             "0 to quit");
 
         while (!quit) {
@@ -59,6 +72,18 @@ public class Main {
                     break;
             }
         }
+        return values;
+    }
 
+    public static void saveObject(IStorage objectToSave){
+        for(int i = 0;  i < objectToSave.write().size(); i++){
+            System.out.println("Saving " + objectToSave.write().get(i) + " to storage device");
+        }
+    }
+
+    public static void loadObject(IStorage objectToLoad){
+        List<String> values = readValues(); // <-- use this method to get info from user
+        objectToLoad.read(values);
     }
 }
+

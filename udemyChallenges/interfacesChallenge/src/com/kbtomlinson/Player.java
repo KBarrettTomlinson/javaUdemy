@@ -13,7 +13,7 @@ public class Player implements IStorage{
         this.name = name;
         this.hitPoints = hitPoints;
         this.strength = strength;
-        this.weapon. = "Sword";
+        this.weapon = "Sword";
     }
 
     public String getName() {
@@ -70,7 +70,7 @@ public class Player implements IStorage{
 
     @Override
     public void read(List<String> savedValues) {
-        if(savedValues != && savedValues.size() > 0){
+        if(savedValues != null && savedValues.size() > 0){
             this.name = savedValues.get(0);
             this.hitPoints = Integer.parseInt(savedValues.get(1));
             this.strength = Integer.parseInt(savedValues.get(2));
