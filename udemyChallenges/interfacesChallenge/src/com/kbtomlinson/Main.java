@@ -7,7 +7,12 @@ public class Main {
         // The exact type of medium is not known to the interface (nor to the classes that implement it).
         // The interface will just specify 2 methods, one to return an ArrayList of values to be saved
         // and the other to populate the object's fields from an ArrayList.
-        //
+
+        // Interface
+        // 2 Methods
+
+
+
         // Create some sample classes that implement your saveable interface (we've used the idea of a game,
         // with Players and Monsters, but you can create any type of classes that you want).
         //
@@ -21,5 +26,7 @@ public class Main {
         // Again, we are not going to use Java file I/O; instead use the readValues() method below to
         // simulate getting values from a file – this allows you to type as many values as your class
         // requires, and returns an ArrayList.
+
+
     }
 }
