@@ -51,6 +51,9 @@ public class Main {
         System.out.println(werewolf);
         saveObject(werewolf);
 
+        // declare a variable that can have objects of different types. Used the Interface
+        // Using the interface keeps your code more generic
+        // Automatic casting in java
 
 
 
