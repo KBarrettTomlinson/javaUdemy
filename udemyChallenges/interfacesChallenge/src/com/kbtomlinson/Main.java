@@ -38,8 +38,18 @@ public class Main {
         System.out.println(keith);
         keith.setWeapon("Storm Ruler");
         saveObject(keith);
-        loadObject(keith);
+//        loadObject(keith);
         System.out.println(keith);
+
+        IStorage werewolf = new Monster("Werewolf", 20, 40);
+
+        // cannot user werewolf.getStrength from here
+        // instead we have to cast it as a Monster
+
+        System.out.println(((Monster) werewolf).getStrength());
+
+        System.out.println(werewolf);
+        saveObject(werewolf);
 
 
 
@@ -76,6 +86,7 @@ public class Main {
     }
 
     public static void saveObject(IStorage objectToSave){
+        System.out.println(objectToSave + " object to save inside save Object method");
         for(int i = 0;  i < objectToSave.write().size(); i++){
             System.out.println("Saving " + objectToSave.write().get(i) + " to storage device");
         }
