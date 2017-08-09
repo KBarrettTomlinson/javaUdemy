@@ -58,7 +58,7 @@ public class Gearbox {
     // A gear is not useful outside of the context of the gearbox.
     // Instance of gear has access to all of the properties and methods of the upper class
     // even those marked as private.
-    private class Gear {
+    public class Gear {
 
         private int gearNumber;
         private double ratio;
