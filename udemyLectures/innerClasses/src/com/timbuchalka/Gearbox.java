@@ -27,7 +27,7 @@ public class Gearbox {
     }
 
 
-    // method used to access the inner class from the global class. 
+    // method used to access the inner class from the global class.
     public void addGear(int number, double ratio) {
         if((number >0) && (number <= maxGears)) {
             this.gears.add(new Gear(number, ratio));
@@ -60,7 +60,13 @@ public class Gearbox {
     // A gear is not useful outside of the context of the gearbox.
     // Instance of gear has access to all of the properties and methods of the upper class
     // even those marked as private.
-    public class Gear {
+
+    // Special cases of inner classes
+    // Local classes or anonymous classes
+
+    // Local classes tend to be used less frequently.
+
+    private class Gear {
 
         private int gearNumber;
         private double ratio;

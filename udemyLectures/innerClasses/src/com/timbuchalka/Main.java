@@ -18,13 +18,21 @@ public class Main {
         // Gearbox.Gear first = newGearbox.new Gear(2, 23); // instantiating an inner Class
 
 
-
-
     private static Scanner scanner = new Scanner(System.in);
     private static Button btnPrint = new Button("Print");
 
     public static void main(String[] args) {
 
+
+        // using a global class utilizing a localized inner class called GEAR inside of the Gearbox class
+        Gearbox newGearbox = new Gearbox(6);
+        newGearbox.addGear(1, 5.3);
+        newGearbox.addGear(2, 10.6);
+        newGearbox.addGear(3, 15.9);
+        newGearbox.operateClutch(true);
+        newGearbox.changeGear(1);
+
+            // declaring local class inside the main but is localized to the scope of this method
 //        class ClickListener implements Button.OnClickListener {
 //            public ClickListener() {
 //                System.out.println("I've been attached");
@@ -37,6 +45,10 @@ public class Main {
 //        }
 //
 //        btnPrint.setOnClickListener(new ClickListener());
+
+
+        // anonymous classes must be declared and constructed in line.
+
         btnPrint.setOnClickListener(new Button.OnClickListener() {
             @Override
             public void onClick(String title) {
