@@ -26,6 +26,8 @@ public class Gearbox {
         this.clutchIsIn = in;
     }
 
+
+    // method used to access the inner class from the global class. 
     public void addGear(int number, double ratio) {
         if((number >0) && (number <= maxGears)) {
             this.gears.add(new Gear(number, ratio));

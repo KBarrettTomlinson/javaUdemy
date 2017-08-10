@@ -8,10 +8,16 @@ public class Main {
     // Static
     // Non-static Inner Class
     // Local Class Inner Class defined inside a scope block
-    // Anonymous Classs - no name
+    // Anonymous Class - no name
 
-    Gearbox newGearbox = new Gearbox(6);
-    Gearbox.Gear first = newGearbox.new Gear(2, 23);
+    // This requires the inner class to be public, but typically we wouldn't want to do that.
+    // Instead we would create new gears as a part of the instantiation of the main class Gearbox
+    // In order to add gears, we would actually just add a method instead.
+
+        // Gearbox newGearbox = new Gearbox(6);
+        // Gearbox.Gear first = newGearbox.new Gear(2, 23); // instantiating an inner Class
+
+
 
 
     private static Scanner scanner = new Scanner(System.in);
