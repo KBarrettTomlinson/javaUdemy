@@ -22,12 +22,13 @@ public class Button {
         this.onClickLister = onClickListener;
     }
 
-    //method
+    //method when
     public void onClick() {
         this.onClickLister.onClick(this.title);
     }
 
-    //???
+    //??? This is an interface declaration
+
     public interface OnClickListener {
         public void onClick(String title);
     }
